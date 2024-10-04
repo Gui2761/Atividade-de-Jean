@@ -27,7 +27,7 @@ h3 {
 }
 .tipo {
     width: 230px;
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(204, 204, 204);
     border-radius: 10px;
     flex-direction:column;
     align-items: center;
@@ -82,8 +82,8 @@ h3 {
 }
 .lista-melhorias {
     list-style-type: disc;
-    line-height: 69%;
-    margin-top: 3%;
+    line-height: 12px;
+    margin-top: 10px;
     padding-left: 20px;
     text-align:left;
 }
@@ -96,6 +96,7 @@ h3 {
     font-size: 16px;
 }
 .MB {
+    color: rgb(110, 109, 108);
     margin: 1px;
     line-height: 1;
     font-size: 17px;
