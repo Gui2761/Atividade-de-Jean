@@ -1,0 +1,102 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffffea;
+}
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 40px;
+}
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 22px;
+}
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 20px 0 30px;
+    font-size: 30px;
+}
+.caixa {
+    justify-content: center;
+    display: flex;
+}
+.tipo {
+    width: 230px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 10px;
+    flex-direction:column;
+    align-items: center;
+    margin: 25px;
+    text-align: center;
+    box-shadow: 0px 1px 20px rgb(0, 0, 0);
+    display: flex;
+}
+.tipo .titulo {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+}
+.tipo .preco {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    font-size: 32px;
+    background-color: #0099cc;
+}
+.tipo .preco span {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+.botão-caixa {
+    margin-bottom: 10px;
+    display: flex;
+}
+.tipo botão {
+    background:linear-gradient(#86c3ff, #0080ff, #004080);
+    color: rgb(255, 255, 255);
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+}
+.tipo .carrinho-botão {
+    background:linear-gradient(#7f96ad, #074481, #011f3d);
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    padding: 10px;
+}
+.carrinho-botão img {
+    width: 23px;
+    height: 23px;
+}
+.lista-melhorias {
+    list-style-type: disc;
+    line-height: 69%;
+    margin-top: 3%;
+    padding-left: 20px;
+    text-align:left;
+}
+.lista-melhorias li {
+    margin: 5px;
+}
+.memoria {
+    margin: 1px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.MB {
+    margin: 1px;
+    line-height: 1;
+    font-size: 17px;
+}
